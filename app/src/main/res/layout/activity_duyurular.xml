@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:alpha="0.8"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Duyurular">
+
+
+    <ImageView
+        android:id="@+id/duyuruicon"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/baseline_notifications_active_24"/>
+    <TextView
+        android:id="@+id/textbaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baslik"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textmetin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/duyuru"
+                android:textColor="@color/blackv2"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

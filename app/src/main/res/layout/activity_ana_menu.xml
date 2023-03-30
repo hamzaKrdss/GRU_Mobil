@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdf"
+    android:alpha="0.8"
+    tools:context=".AnaMenu">
+
+    <Button
+        android:id="@+id/transkript"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:text="Transkript"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:onClick="transkript"
+        android:background="@drawable/button_bg"
+        />
+
+    <Button
+        android:id="@+id/yemekmenu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="200dp"
+        android:text="Günün \nMenüsü"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:onClick="yemekMenu"
+        android:background="@drawable/button_bg"
+        />
+
+    <Button
+        android:id="@+id/duyurular"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="380dp"
+        android:text="Duyurular"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:onClick="duyuru"
+        android:background="@drawable/button_bg"
+        />
+
+    <Button
+        android:id="@+id/senaryo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="380dp"
+        android:text="Senaryo"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:onClick="senaryo"
+        android:background="@drawable/button_bg"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="650dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="1dp"
+        android:text="Kullanici: Hamza"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+
+</RelativeLayout>
